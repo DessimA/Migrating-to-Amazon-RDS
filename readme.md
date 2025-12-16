@@ -1,3 +1,23 @@
+## 👤 Autor e Contexto
+
+**José Anderson da Silva Costa**
+
+Este projeto foi desenvolvido como uma **iniciativa pessoal** durante o programa **AWS re/Start**,
+embora o laboratório original da **Escola da Nuvem** foque na execução manual para aprendizado dos conceitos, desenvolvi esta automação para exercitar práticas de **DevOps** e **Infrastructure as Code (IaC)**.
+
+*   **Base Teórica:** AWS re/Start & Escola da Nuvem
+*   **Automação e Scripting:** José Anderson da Silva Costa
+*   **Instrutor:** Heberton Geovane
+
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-dessima-jose-anderson-da-silva-costa/)
+  [![GitHub](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](http://github.com/DessimA)
+  
+</div>
+
+--- 
+
 # ☕ AWS re/Start Lab: Migrating to Amazon RDS (Automated Solution)
 
 Este repositório contém a solução automatizada e documentada para o laboratório **"Migrating to Amazon RDS"**.
@@ -283,4 +303,3 @@ Validação definitiva de que a aplicação **não depende mais** do banco local
 > **Detalhe chave:** Mostra o terminal com o comando `sudo service mariadb stop` (banco parado) e, ao mesmo tempo, o site do Café carregando os dados normalmente, é a prova final do sucesso.
 
 ---
-

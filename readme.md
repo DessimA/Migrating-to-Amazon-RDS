@@ -199,7 +199,7 @@ Para garantir nota máxima e comprovar o sucesso, colete as seguintes evidência
 
 ### 3. Evidência de Migração (Terminal)
 *   **Caminho:** Output do script.
-*   **Validação:** O comando SQL final deve mostrar `Total_Produtos_RDS` com um número maior que 0 (ex: 4 ou 9).
+*   **Validação:** O comando SQL final deve mostrar `Total_Produtos_RDS` com um número maior que 0 (nesse Lab deve ser 9).
 
 ### 4. Evidência de Configuração (Console AWS)
 *   **Caminho:** Systems Manager > Parameter Store > `/cafe/dbUrl`.
@@ -236,7 +236,7 @@ Confirmação da criação das duas subnets privadas necessárias para o Subnet 
 
 > Procure a imagem do Console da VPC > Subnets.
 
-> **Detalhe chave:** Você filtrou por `10.200` e aparecem 3 subnets na lista, sendo duas delas as **"Cafe Private Subnet 1"** e **"Cafe Private Subnet 2"** (com final `/23`).
+> **Detalhe chave:** Filtre por `10.200` e aparecem 3 subnets na lista, sendo duas delas as **"Cafe Private Subnet 1"** e **"Cafe Private Subnet 2"** (com final `/23`).
 
 ---
 
@@ -285,6 +285,7 @@ Prova de que o usuário final consegue visualizar os pedidos após a migração.
 ![App Order History](./assets/05-app-order-history.png)
 
 > **💡 Como identificar este print:**
+
 > É o print do navegador (Chrome/Firefox) mostrando o site do Café.
 
 > **Detalhe chave:** A tabela de **"Order History"** está cheia de pedidos (Donut, Coffee, etc.), provando que a aplicação está lendo o banco corretamente.
@@ -298,7 +299,7 @@ Validação definitiva de que a aplicação **não depende mais** do banco local
 
 > **💡 Como identificar este print:**
 
-> É aquele print "híbrido" ou de tela dividida que você tirou por último.
+> É aquele print "híbrido" ou de tela dividida que você tira por último.
 
 > **Detalhe chave:** Mostra o terminal com o comando `sudo service mariadb stop` (banco parado) e, ao mesmo tempo, o site do Café carregando os dados normalmente, é a prova final do sucesso.
 
